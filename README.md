@@ -1,79 +1,100 @@
-# 🍝 La Tavola - Food Delivery App
+# 🍝 La Tavola — Restaurant App
 
-Food delivery app per il ristorante italiano "La Tavola" - Autentica cucina italiana dal 1985.
+[![Live Demo](https://img.shields.io/badge/LIVE_DEMO-green?style=flat-square)](https://la-tavola-three.vercel.app/)
+[![React](https://img.shields.io/badge/React-19-blue?style=flat-square&logo=react)](https://react.dev/)
+[![Vite](https://img.shields.io/badge/Vite-6-purple?style=flat-square&logo=vite)](https://vitejs.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3-cyan?style=flat-square&logo=tailwindcss)](https://tailwindcss.com/)
 
-🔗 **[LIVE DEMO](https://la-tavola-three.vercel.app/)**
+> Italian restaurant menu app with real-time ordering system and mobile-first UI.
 
-## ✨ Funzionalità
+## 📋 Overview
 
-- **Homepage** con hero section e menu interattivo
-- **Filtro categorie**: Tutti, Antipasti, Primi, Secondi, Pizze, Dolci, Bevande
-- **Griglia piatti** con 25+ piatti italiani autentici
-- **Carrello laterale** animato con drawer
-- **Pagina carrello** completa con riepilogo
-- **Checkout a 3 step**: Dati consegna → Pagamento → Conferma
-- **Pagina conferma ordine** con numero ordine generato
-- **Badge carrello** animato nella navbar
-- **Stato globale** con Zustand
+**La Tavola** is a digital menu and ordering system for an authentic Italian restaurant. Built with React and Tailwind CSS, it features real-time data management, category filtering, shopping cart functionality, and a multi-step checkout process.
 
-## 🛠️ Tecnologie
+## ✨ Features
 
-- **React 19** con Vite
-- **Tailwind CSS** per lo styling
-- **Framer Motion** per le animazioni
-- **Zustand** per la gestione dello stato
-- **React Router DOM** per il routing
-- **React Icons** per le icone
+- **Interactive Menu** — 25+ authentic Italian dishes across 6 categories
+- **Category Filters** — Filter by: Antipasti, Primi, Secondi, Pizze, Dolci, Bevande
+- **Shopping Cart** — Animated side drawer with real-time updates
+- **Cart Badge** — Animated badge in navbar showing item count
+- **3-Step Checkout** — Delivery info → Payment → Confirmation
+- **Order Confirmation** — Generated order number for tracking
+- **State Management** — Global state with Zustand
 
-## 🚀 Installazione
+## 🛠️ Tech Stack
+
+| Technology       | Purpose          |
+| ---------------- | ---------------- |
+| React 19         | UI Framework     |
+| Vite             | Build Tool       |
+| Tailwind CSS     | Styling          |
+| Framer Motion    | Animations       |
+| Zustand          | State Management |
+| React Router DOM | Routing          |
+| React Icons      | Icon Library     |
+
+## 🚀 Getting Started
 
 ```bash
-# Clona il repository
-git clone https://github.com/tuo-username/la-tavola.git
+# Clone the repository
+git clone https://github.com/Luis-Miha/la-tavola.git
 
-# Entra nella directory
+# Navigate to directory
 cd la-tavola
 
-# Installa le dipendenze
+# Install dependencies
 npm install
 
-# Avvia il server di sviluppo
+# Start development server
 npm run dev
+
+# Build for production
+npm run build
 ```
 
-## 📦 Build
+## 📁 Project Structure
 
-```bash
-# Build per la produzione
-npm run build
-
-# Anteprima della build
-npm run preview
+```
+la-tavola/
+├── src/
+│   ├── components/     # Reusable UI components
+│   ├── pages/          # Route pages
+│   ├── data/           # Menu data
+│   ├── store/          # Zustand store
+│   ├── App.jsx         # Main app component
+│   ├── main.jsx        # Entry point
+│   └── index.css       # Global styles
+├── index.html          # HTML entry
+├── vite.config.js     # Vite configuration
+└── package.json       # Dependencies
 ```
 
 ## 🎨 Design
 
-- **Colori caldi**: Rosso #dc2626, Arancione #ea580c
-- **Font**: Playfair Display (titoli), Inter (testo)
-- **Card con ombre morbide**
-- **Animazioni fluide** su hover e click
+- **Primary Colors**: Warm Red (#dc2626), Orange (#ea580c)
+- **Typography**: Playfair Display (headings), Inter (body)
+- **Style**: Italian-inspired with warm tones, soft shadows, smooth animations
 
-## 📱 Pagine
+## 📱 Pages
 
-| Pagina                | Descrizione                 |
+| Route                 | Description                 |
 | --------------------- | --------------------------- |
-| `/`                   | Homepage con hero e menu    |
-| `/cart`               | Carrello con lista prodotti |
-| `/checkout`           | Checkout a 3 step           |
-| `/order-confirmation` | Conferma ordine             |
+| `/`                   | Homepage with hero and menu |
+| `/cart`               | Shopping cart with items    |
+| `/checkout`           | 3-step checkout process     |
+| `/order-confirmation` | Order confirmation with ID  |
 
-## 🍕 Menu
+## 👨‍💻 Author
 
-25+ piatti italiani suddivisi in:
+**George Luis Mihalache** — Junior Front-End Developer
 
-- Antipasti (4 piatti)
-- Primi (5 piatti)
-- Secondi (4 piatti)
-- Pizze (4 piatti)
-- Dolci (4 piatti)
-- Bevande (4 prodotti)
+- GitHub: [@Luis-Miha](https://github.com/Luis-Miha)
+- Email: Luis_99@hotmail.it
+- LinkedIn: [george-luis-mihalache](https://www.linkedin.com/in/george-luis-mihalache-318058387/)
+
+---
+
+<div align="center">
+  <p>⭐ Star this project if you find it useful!</p>
+  <p>Built with ❤️ by George Luis Mihalache</p>
+</div>
